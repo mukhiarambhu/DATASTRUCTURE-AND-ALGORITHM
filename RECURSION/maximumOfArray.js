@@ -1,9 +1,7 @@
-const M = require("minimatch");
-
 function runProgramme(input) {
   let data = input.split(" ").map(Number);
-  let max = data[0];
 
+  let max = data[0];
   function maximum(arr, n) {
     if (n === arr.length) {
       return;
