@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mukhiarambhu/DATASTRUCTURE-AND-ALGORITHM/issues"
   },
-  "homepage": "https://github.com/mukhiarambhu/DATASTRUCTURE-AND-ALGORITHM#readme"
+  "homepage": "https://github.com/mukhiarambhu/DATASTRUCTURE-AND-ALGORITHM#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
 }
