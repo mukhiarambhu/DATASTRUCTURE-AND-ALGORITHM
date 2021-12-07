@@ -4,7 +4,7 @@ function runProgramme(input) {
   let data = newInput[1].split(" ").map(Number);
 
   function findFirst(arr, n, b) {
-    if (n === arr.length && arr[n] != b) {
+    if (n === arr.length) {
       console.log(-1);
       return;
     }
@@ -17,5 +17,5 @@ function runProgramme(input) {
   }
   findFirst(data, 0, number);
 }
-runProgramme(`9
+runProgramme(`3
 12 5 3 4 5 3 78 89 6`);
