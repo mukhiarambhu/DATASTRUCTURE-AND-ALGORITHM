@@ -24,7 +24,7 @@ function runProgramme(input) {
   if (stack.length === 0) {
     console.log(true);
   } else {
-    console.log(false);
+   console.log(false)
   }
 }
 
