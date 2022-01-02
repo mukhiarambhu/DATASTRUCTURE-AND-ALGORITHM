@@ -31,14 +31,20 @@ function printLinklist(head) {
 printLinklist(a);
 
 //recursilvly iterate through an array
-let res = "";
+
 let printLinklistRecursively = (head) => {
+  let res = "";
+  fillvalue(head, res);
+};
+
+function fillvalue(head, res) {
   if (head == null) {
     console.log(res);
     return;
   }
+
   res += head.val + " ";
-  printLinklistRecursively(head.next);
-};
+  fillvalue(head.next, res);
+}
 
 printLinklistRecursively(a);
