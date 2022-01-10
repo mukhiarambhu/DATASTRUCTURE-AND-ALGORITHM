@@ -101,3 +101,24 @@ for (let i = 1; i <= n; i++) {
   }
   console.log(result);
 }
+
+/*
+print reverse pyramid
+
+******
+ ****
+  **
+  *
+*/
+
+for (let i = 0; i < n; i++) {
+  let result = "";
+  for (let j = 0; j < n; j++) {
+    if (j <= n - (n - i + 1)) {
+      result += " ";
+    } else {
+      result += "* ";
+    }
+  }
+  console.log(result);
+}
